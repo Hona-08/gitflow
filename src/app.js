@@ -23,7 +23,7 @@ if (config.env !== 'test') {
 }
 
 // Route to check db connection
-app.use('/apiiiiiiiiiii', dbConnectionTestRoute);
+app.use('/db-test', dbConnectionTestRoute);
 
 // set security HTTP headers
 app.use(helmet());
